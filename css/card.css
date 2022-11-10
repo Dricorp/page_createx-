@@ -1,0 +1,83 @@
+.page {
+}
+.page__body {
+}
+
+.teacher {
+}
+.teacher__container {
+}
+.teacher__container:not(:last-child) {
+	margin-bottom: 212px;
+}
+.teacher__title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.teacher__title:not(:last-child) {
+	margin-bottom: 60px;
+}
+.teacher__caption {
+	flex: 0 1 auto;
+}
+.teacher__button {
+}
+.teacher__card-page {
+	display: flex;
+	gap: 30px;
+}
+
+.card-teacher {
+	flex: 0 1 50%;
+}
+.card-teacher__main {
+}
+
+.card {
+	box-shadow: 0 5px 15px #000;
+	transition: all 0.3s ease 0s;
+}
+.card:not(:last-child) {
+	margin-bottom: 30px;
+}
+.card:hover {
+	box-shadow: 0 5px 10px #000;
+}
+.card__content {
+}
+.card__media {
+	overflow: hidden;
+}
+.card__image {
+	transition: all 0.3s ease 0s;
+}
+.card__image:hover {
+	transform: scale(1.2);
+	overflow: hidden;
+}
+.card__texts {
+}
+.card__text {
+}
+.card__direction {
+}
+.card-direction--1 {
+}
+.card__title {
+}
+.card__price {
+}
+.card__value {
+}
+.card__ticher {
+}
+.card-direction--2 {
+	background: #f89828;
+}
+.card-direction--3 {
+	background: #5a87fc;
+}
+.card-direction--5 {
+	background: #f52f6e;
+}
